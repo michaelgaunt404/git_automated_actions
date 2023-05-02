@@ -11,7 +11,7 @@ print(Sys.time())
 #                        use_ssl = TRUE)
 
 # Generate the email object using blastula
-my_email_object <- render_email("blastula_email.rmd")
+my_email_object <- render_email("blastula_email.qmd")
 
 # Send email
 smtp_send(my_email_object,
