@@ -1,6 +1,8 @@
 # Load blastula package
 library(blastula)
 
+print("PRINTING")
+
 # Create file containing credentials for email account
 create_smtp_creds_file(file = "mgthrow",
                        user = "gaunt_throwaway_123@outlook.com",
